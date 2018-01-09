@@ -17,11 +17,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_margin="@dimen/len_5"
             android:gravity="center_vertical"
             android:text="选择串口号"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
 
         <Spinner
@@ -29,7 +28,6 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_margin="@dimen/len_5"
             android:gravity="center_horizontal|center_vertical" />
 
     </LinearLayout>
@@ -37,7 +35,6 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/len_10"
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:padding="@dimen/len_10">
@@ -46,17 +43,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_margin="@dimen/len_5"
             android:text="选择波特率"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
         <Spinner
             android:id="@+id/sp_bit"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_margin="@dimen/len_5"
             android:gravity="center_horizontal|center_vertical" />
 
     </LinearLayout>
@@ -66,7 +61,6 @@
         android:layout_width="wrap_content"
         android:layout_height="@dimen/len_30"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/len_10"
         android:background="@drawable/select_theme_white"
         android:paddingLeft="@dimen/len_10"
         android:paddingRight="@dimen/len_10"
